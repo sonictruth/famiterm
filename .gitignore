@@ -1,0 +1,9 @@
+build/
+.sdk/
+.arduino-sdk/
+.esp32-s3-sdk/
+romcart/chr/
+__pycache__
+.DS_Store
+.claude/settings.local.json
+

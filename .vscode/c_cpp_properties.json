@@ -1,0 +1,42 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "ESP32-S3",
+      "compilerPath": "${workspaceFolder}/.esp32-s3-sdk/data/packages/esp32/tools/esp-x32/2601/bin/xtensa-esp32s3-elf-g++",
+      "includePath": [
+        "${workspaceFolder}/firmware",
+        "${workspaceFolder}/.esp32-s3-sdk/data/packages/esp32/hardware/esp32/3.3.12/cores/esp32",
+        "${workspaceFolder}/.esp32-s3-sdk/data/packages/esp32/hardware/esp32/3.3.12/variants/esp32s3",
+        "${workspaceFolder}/.esp32-s3-sdk/data/packages/esp32/hardware/esp32/3.3.12/libraries/FS/src",
+        "${env:HOME}/Documents/Arduino/libraries/EspUsbHost/src",
+        "${workspaceFolder}/.esp32-s3-sdk/data/packages/esp32/tools/esp32s3-libs/3.3.12/qio_qspi/include",
+        "${workspaceFolder}/.esp32-s3-sdk/data/packages/esp32/tools/esp32s3-libs/3.3.12/include/**"
+      ],
+      "defines": [
+        "F_CPU=240000000L",
+        "ARDUINO=10607",
+        "ARDUINO_ESP32S3_DEV",
+        "ARDUINO_ARCH_ESP32",
+        "ARDUINO_BOARD=\"ESP32S3_DEV\"",
+        "ARDUINO_VARIANT=\"esp32s3\"",
+        "ESP32=ESP32",
+        "ESP_PLATFORM",
+        "IDF_VER=\"v5.5.5\"",
+        "CORE_DEBUG_LEVEL=0",
+        "ARDUINO_RUNNING_CORE=1",
+        "ARDUINO_EVENT_RUNNING_CORE=1",
+        "ARDUINO_USB_MODE=1",
+        "ARDUINO_USB_CDC_ON_BOOT=0",
+        "ARDUINO_USB_MSC_ON_BOOT=0",
+        "ARDUINO_USB_DFU_ON_BOOT=0",
+        "_GNU_SOURCE",
+        "_GLIBCXX_USE_POSIX_SEMAPHORE",
+        "_GLIBCXX_HAVE_POSIX_SEMAPHORE"
+      ],
+      "cStandard": "gnu17",
+      "cppStandard": "gnu++20",
+      "intelliSenseMode": "gcc-x86"
+    }
+  ]
+}
