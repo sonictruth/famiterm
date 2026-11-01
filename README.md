@@ -1,8 +1,8 @@
 # FamiTerm
 
-<p align="center"><strong>A VT52 telnet client and Family BASIC Keyboard emulator.</strong></p>
+<p><strong>A VT52 telnet client and Family BASIC Keyboard emulator.</strong></p>
 
-<img src="screenshots/full.jpg" alt="Full" width="50%" style="display: block; margin: 0 auto;">
+<img src="screenshots/full.jpg" alt="Full" width="50%" style="display: block;">
 
 ESP32-S3 acts as a WiFi modem between a USB keyboard, the network and the Famicom.
 
