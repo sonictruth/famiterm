@@ -2,7 +2,7 @@
 
 <p><strong>A VT52 telnet client and Family BASIC Keyboard emulator.</strong></p>
 
-<img src="screenshots/full.jpg" alt="Full" width="50%" style="display: block;">
+<img src="screenshots/s0.jpg" alt="Full" width="50%" style="display: block;">
 
 ESP32-S3 acts as a WiFi modem between a USB keyboard, the network and the Famicom.
 
@@ -206,9 +206,11 @@ written to the board's UART port at 115200 baud (e.g.
 
 ![Splash screen](screenshots/splash.jpg)
 
-![Terminal session](screenshots/s1.jpg)
+![Terminal session](screenshots/s3.jpg)
 
-![Terminal session](screenshots/s2.jpg)
+![Terminal session](screenshots/s5.jpg)
+
+![Terminal session](screenshots/s4.jpg)
 
 ## Credits
 
